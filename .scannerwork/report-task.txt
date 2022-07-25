@@ -1,0 +1,7 @@
+organization=jahnavimuddu-zemoso-react
+projectKey=jahnavimuddu_Blinkist
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.30401
+dashboardUrl=https://sonarcloud.io/dashboard?id=jahnavimuddu_Blinkist
+ceTaskId=AYIzzL2B13nh0_l_rpHW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYIzzL2B13nh0_l_rpHW

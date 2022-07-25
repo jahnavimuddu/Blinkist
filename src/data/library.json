@@ -22,7 +22,7 @@
       "numberOfReads": "",
       "image": "../images/employee.svg",
       "status": {
-        "isFinished": false,
+        "isFinished": true,
         "isTrending": false,
         "justAdded": false,
         "isFeatured": false
@@ -134,8 +134,8 @@
       "numberOfReads": "1.9k reads",
       "image": "../images/beyondEntrepreneurship.svg",
       "status": {
-        "isFinished": true,
-        "isTrending": false,
+        "isFinished": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }
