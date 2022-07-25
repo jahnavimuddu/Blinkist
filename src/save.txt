@@ -1,0 +1,36 @@
+// style:{
+    //   width : "296px",
+    //   height: "44px",
+    //   backgroundColor: "rgba(44, 224, 128, 1)",
+    //   borderRadius: "4px",
+    //   border: "none",     
+    // },
+
+    // const useStyles = makeStyles({
+//     styleButton: {
+//       width: "296px",
+//       height: "44px",
+//       backgroundColor: "rgba(44, 224, 128, 1)",
+//       borderRadius: "4px",
+//       border: "none",
+//       "&:hover": {
+//         backgroundColor: "rgba(0, 194, 99, 1)",
+//       },
+//     },
+//   });
+
+,
+    {
+      "id": 11,
+      "title": "Being Boss",
+      "author": "Kathleen Shannon land Emily...",
+      "timeToRead": "13-minute read",
+      "numberOfReads": "",
+      "image": "../images/beingBoss.svg",
+      "status": {
+        "isFinished": false,
+        "isTrending": true,
+        "justAdded": false,
+        "isFeatured": false
+      }
+    }
