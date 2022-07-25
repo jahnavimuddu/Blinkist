@@ -99,7 +99,7 @@ export const HeaderComponent = () => {
   });
 
   const expandExploreDropdown = () => {
-    explore ? setExplore(true) : setExplore(true);
+    setExplore(true);
     console.log(explore + "what")
     if (explore) {
       setExploreStyle({ transform: "rotate(0deg)", });
