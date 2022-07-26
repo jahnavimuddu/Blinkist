@@ -1,8 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import { Button } from "@mui/material";
 import { ButtonComponent } from "../atoms/Buttons/Buttons";
-import { ClassNames } from "@emotion/react";
 import { makeStyles } from "@mui/styles";
 
 const useStyles=makeStyles({
@@ -13,7 +11,6 @@ const useStyles=makeStyles({
 
 
 const LoginButton = () => {
-  let styles=useStyles()
   const { loginWithRedirect, isAuthenticated } = useAuth0();
 
   return (

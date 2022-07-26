@@ -1,4 +1,4 @@
-import { Box, Dialog, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { makeStyles, styled } from "@mui/styles";
 import ExtendedNavData from "../../../data/ExtendedNavData";
 import { IconAndText } from "../../molecules/IconAndText";

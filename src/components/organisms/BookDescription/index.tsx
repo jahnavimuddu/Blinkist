@@ -8,12 +8,10 @@ import { ReactComponent as Time } from "../../../images/time.svg";
 import { ButtonComponent } from "../../atoms/Buttons/Buttons";
 import { ReactComponent as Side } from "../../../images/side.svg";
 import { AboutBook } from "../AboutBook";
-import BeyondEntrepreneur from '../../../images/beyondEntrepreneurship.svg'
 import { BookInfo } from "../Card";
 import { useEffect, useState } from "react";
 import api from "../../../api/api";
 import { useNavigate } from "react-router-dom";
-import { Library } from "../../../data/Library";
 
 
 let MainContainer = styled("div")({

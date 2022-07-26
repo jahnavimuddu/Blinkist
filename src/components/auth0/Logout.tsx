@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Button } from "@mui/material";
-import { styled, makeStyles } from "@mui/styles";
+import { makeStyles } from "@mui/styles";
 
 let useStyles = makeStyles({
   logout:{
@@ -16,7 +16,7 @@ let useStyles = makeStyles({
   
 
 const LogoutButton = () => {
-  const { logout,isAuthenticated,user } = useAuth0();
+  const { logout,isAuthenticated } = useAuth0();
   const styles=useStyles()
 
   return (
@@ -31,4 +31,3 @@ const LogoutButton = () => {
 };
 
 export default LogoutButton;
-// { returnTo: window.location.origin }

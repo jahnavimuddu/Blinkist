@@ -6,7 +6,7 @@
       "author": "Erica Keswin",
       "image": "../images/gallery1.svg",
       "timeToRead": "13-min read",
-      "numberOfReads": "1.9k reads",
+      "numberOfReads": "",
       "status": {
         "isFinished": false,
         "isTrending": false,
@@ -16,28 +16,28 @@
     },
     {
       "id": 2,
-      "title": "Bring Your Human to Work",
-      "author": "Erica Keswin",
-      "image": "../images/gallery1.svg",
-      "timeToRead": "13-min read",
+      "title": "Employee to Entrepreneur",
+      "author": "Steve Glaveski",
+      "image": "../images/employee.svg",
+      "timeToRead": "15-min read",
       "numberOfReads": "1.9k reads",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "isFeatured": false,
         "justAdded": false
       }
     },
     {
       "id": 3,
-      "title": "Bring Your Human to Work",
-      "author": "Erica Keswin",
-      "image": "../images/gallery1.svg",
+      "title": "Doesn't Hurt to Ask",
+      "author": "Trey Gowdy",
+      "image": "../images/doesntHurtToAsk.svg",
       "timeToRead": "13-min read",
       "numberOfReads": "1.9k reads",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "isFeatured": false,
         "justAdded": false
       }
@@ -51,7 +51,7 @@
       "image": "../images/theFateOfFood.svg",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }
@@ -64,7 +64,7 @@
       "numberOfReads": "",
       "image": "../images/livesOfStoics.svg",
       "status": {
-        "isFinished": true,
+        "isFinished": false,
         "isTrending": true,
         "justAdded": false,
         "isFeatured": false
@@ -79,21 +79,21 @@
       "image": "../images/lovingYourBusiness.svg",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }
     },
     {
       "id": 7,
-      "title": "Bring Your Human to Work",
-      "author": "Erica Keswin",
-      "image": "../images/gallery1.svg",
-      "timeToRead": "13-min read",
-      "numberOfReads": "1.9k reads",
+      "title": "The Lonely Century",
+      "author": "Noreena Hertz",
+      "image": "../images/theLonelyCentury.svg",
+      "timeToRead": "15-min read",
+      "numberOfReads": "",
       "status": {
-        "isFinished": true,
-        "isTrending": false,
+        "isFinished": false,
+        "isTrending": true,
         "isFeatured": false,
         "justAdded": false
       }
@@ -128,14 +128,14 @@
     },
     {
       "id": 10,
-      "title": "Lives of the Stoics",
-      "author": "Ryan Holiday, Stephen Hansel",
+      "title": "Beyond Entrepreneurship",
+      "author": "Jim Collins & Bill Lazier",
       "timeToRead": "13-minute read",
-      "numberOfReads": "",
-      "image": "../images/livesOfStoics.svg",
+      "numberOfReads": "1.9k reads",
+      "image": "../images/entreprenuer.svg",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }

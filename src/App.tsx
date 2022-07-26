@@ -16,7 +16,7 @@ let useStyles = makeStyles({
 
 function App() {
   let styles = useStyles()
-  const {user, isAuthenticated} = useAuth0();
+  const { isAuthenticated} = useAuth0();
   return (
     
         

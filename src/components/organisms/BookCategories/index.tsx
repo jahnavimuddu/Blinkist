@@ -2,7 +2,6 @@ import { Typography } from "@mui/material";
 import { makeStyles, styled } from "@mui/styles";
 import { useEffect, useState } from "react";
 import { Card } from "../Card";
-import api from "../../../api/api";
 
 interface BookDisplayProps {
   id: number;

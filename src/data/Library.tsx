@@ -16,7 +16,7 @@ export const Library = [
     title: "Bring Your Human to Work",
     author: "Erica Keswin",
     timeToRead: "13-minute read",
-    numberOfReads: "1.9k reads",
+    numberOfReads: "",
     image: Book1,
     status: {
       isFinished: false,
@@ -30,7 +30,7 @@ export const Library = [
     title: "Employee to Entrepreneur",
     author: "Steve Glaveski",
     timeToRead: "15-minute read",
-    numberOfReads: "",
+    numberOfReads: "1.9k reads",
     image: Book2,
     status: {
       isFinished: false,

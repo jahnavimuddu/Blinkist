@@ -22,8 +22,8 @@
       "numberOfReads": "",
       "image": "../images/employee.svg",
       "status": {
-        "isFinished": true,
-        "isTrending": false,
+        "isFinished": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }
@@ -44,14 +44,14 @@
     },
     {
       "id": 4,
-      "title": "The Fate of Food",
-      "author": "Amanda Little",
-      "timeToRead": "12-minute read",
-      "numberOfReads": "16k reads",
-      "image": "../images/theFateOfFood.svg",
+      "title": "Employee to Entrepreneur",
+      "author": "Steve Glaveski",
+      "timeToRead": "15-minute read",
+      "numberOfReads": "",
+      "image": "../images/employee.svg",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }
@@ -79,7 +79,7 @@
       "image": "../images/lovingYourBusiness.svg",
       "status": {
         "isFinished": false,
-        "isTrending": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }
@@ -128,11 +128,11 @@
     },
     {
       "id": 10,
-      "title": "Beyond Entrepreneurship",
-      "author": "Jim Collins & Bill Lazier",
+      "title": "Doesn't Hurt to Ask",
+      "author": "Trey Gowdy",
       "timeToRead": "13-minute read",
       "numberOfReads": "1.9k reads",
-      "image": "../images/beyondEntrepreneurship.svg",
+      "image": "../images/doesntHurtToAsk.svg",
       "status": {
         "isFinished": false,
         "isTrending": true,
@@ -148,8 +148,8 @@
       "numberOfReads": "",
       "image": "../images/beingBoss.svg",
       "status": {
-        "isFinished": true,
-        "isTrending": false,
+        "isFinished": false,
+        "isTrending": true,
         "justAdded": false,
         "isFeatured": false
       }

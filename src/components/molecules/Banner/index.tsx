@@ -61,7 +61,7 @@ export const Banner = () => {
             </DescriptionContainer>
           </LeftBannerContainer>
           <ImageContainer>
-            <img src={banner} alt="banner"/>
+            <img src={ banner } alt="banner"/>
           </ImageContainer>
         </MainBannerContainer>
       </Container>

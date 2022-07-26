@@ -10,7 +10,6 @@ import { ReactComponent as Add } from "../../../images/add.svg";
 import {ButtonComponent} from "../../atoms/Buttons/Buttons"
 import api from "../../../api/api";
 import {useNavigate} from 'react-router-dom'
-import { Navigate } from 'react-router-dom';
 
 let MainContainer = styled("div")({
   width: 284,
