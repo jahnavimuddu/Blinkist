@@ -1,4 +1,4 @@
-import { DialogContent, Typography } from "@mui/material";
+import { DialogContent, Typography, Avatar, Modal } from "@mui/material";
 import { styled, makeStyles, ThemeProvider } from "@mui/styles";
 import React, { useState } from "react";
 import BlinkistLogo from "../../../images/blinkistlogo.svg";
@@ -9,10 +9,7 @@ import { ExtendedNav } from "../ExtendedNav";
 import theme from '../../themes/theme'
 import {useNavigate} from 'react-router-dom'
 import LogoutButton from "../../auth0/Logout";
-import { Avatar, Modal } from "@mui/material";
 import { useAuth0 } from "@auth0/auth0-react";
-
-
 
 
 
@@ -172,6 +169,3 @@ export const HeaderComponent = () => {
     </>
   );
 };
-
-{/* <Modal open={open} close={handleClose}></Modal> */}
-// {<Dialog open={open} onClose={handleClose}></Dialog>}
