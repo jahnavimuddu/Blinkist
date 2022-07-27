@@ -7,13 +7,13 @@ import { Constants } from "../../../data/Constants";
 import { Icons } from "../../atoms/Icons/icons";
 
 let MainContainer = styled("div")({
-  width: "100%",
+  width: 1850,
   height: 440,
   backgroundColor: "#F1F6F4",
   position:"relative",
-  top:70
+  top:100,
+  bottom:400
   
-
 });
 
 let WrapContainer = styled("div")({

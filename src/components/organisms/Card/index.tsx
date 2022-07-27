@@ -10,12 +10,17 @@ import { ReactComponent as Add } from "../../../images/add.svg";
 import {ButtonComponent} from "../../atoms/Buttons/Buttons"
 import api from "../../../api/api";
 import {useNavigate} from 'react-router-dom'
+import {ProgressBarComponent} from '../../atoms/ProgressBar/index'; 
 
 let MainContainer = styled("div")({
   width: 284,
-  height: 485,
+  height: 500,
   borderRadius: 8,
   border: "1px solid #E1ECFC",
+  "&:hover": {
+    backgroundColor: "#F1F6F4",
+    cursor: "pointer",
+  }
 });
 
 let ImageContainer = styled("div")({
@@ -53,7 +58,12 @@ let NumberOfReads = styled("div") ({
 
 let ButtonDiv = styled("div") ({
   position: 'relative',
-  top: 10
+  top: 22
+})
+
+let ProgressBar =styled("div") ({
+  position: 'relative',
+  top: 42
 })
 
 let useStyles = makeStyles({
@@ -79,7 +89,11 @@ let useStyles = makeStyles({
     left: 111,
     top: 30,
     fontWeight: 500,
-    fontSize: 16
+    fontSize: 16,
+    cursor : "pointer"
+  },
+  progress: {
+    borderRadius: `0 0 ${theme.spacing(1)} ${theme.spacing(1)}`,
   },
   button: {
     width: '100%',
@@ -101,6 +115,7 @@ export interface CardProps {
   addToLibrary?: boolean;
   currentlyReading?: boolean;
   readAgain?: boolean;
+  progress?: number;
   id?: number;
   timeToRead?: string;
   numberOfReads?: string;
@@ -116,6 +131,7 @@ export type BookInfo = {
   image: string,
   timeToRead: string,
   numberOfReads: string,
+  progress: number,
   status: {
     isFinished: boolean,
     isTrending: boolean,
@@ -125,7 +141,7 @@ export type BookInfo = {
 }
 
 export const Card = (props: CardProps) => {
-  let {value, onClick, image, title, author, timeToRead, numberOfReads, readAgain, addToLibrary, isFinished } = props
+  let {value, onClick, image, title, author, timeToRead, numberOfReads, readAgain, addToLibrary, isFinished, progress } = props
   let styles = useStyles();
 
   let [iconStyle, setIconStyle] = useState({})
@@ -148,6 +164,7 @@ export const Card = (props: CardProps) => {
     image: "",
     timeToRead: "",
     numberOfReads: "",
+    progress: 1,
     status: {
       isFinished: false,
       isTrending: false,
@@ -185,19 +202,21 @@ export const Card = (props: CardProps) => {
   let updateFinish = async (num: number) => {
     if(bookInfo.status.isFinished) {
       bookInfo.status.isFinished = false
+      bookInfo.progress = 0
     }
     else {
       bookInfo.status.isFinished = true
+      bookInfo.progress = 100
     }
 
     await api.put(`/library/${num}`, bookInfo)
   }
 
-  
-
   let showDetailsPage = (num:number) => {
     navigate(`/bookdetails/?id=${num}`)
   }
+
+  console.log(bookInfo.progress);
 
   return (
     <ThemeProvider theme={theme}>
@@ -239,15 +258,29 @@ export const Card = (props: CardProps) => {
 
           {readAgain ? (
             <Typography variant="body1" className={styles.finished} onClick={() => updateFinish(value)}>
-              Read Again
+              Read Again      
             </Typography>
           ) : null}
 
+        {isFinished ?(
+          <ProgressBar>
+            <ProgressBarComponent className={styles.progress} width={10} value={bookInfo.progress} color="primary"/>
+          </ProgressBar>
+        ): null }
+
+        {readAgain ?(
+          <ProgressBar>
+            <ProgressBarComponent className={styles.progress} width={100} value={bookInfo.progress} color="primary"/>
+          </ProgressBar>
+        ): null }
+
         {addToLibrary ? (
           <ButtonDiv>
-            <ButtonComponent startIcon={<Add style={iconStyle} />} className={styles.button} onClick={() => addToCurrentlyReading(value)} onMouseEnter={handleMouseEnterEvent} onMouseLeave={handleMouseLeaveEvent}>Add To Library</ButtonComponent>
+            <ButtonComponent startIcon={<Add style={iconStyle} />} className={styles.button} onClick={() => addToCurrentlyReading(value)} onMouseEnter={handleMouseEnterEvent} onMouseLeave={handleMouseLeaveEvent}>Add To Library</ButtonComponent>         
           </ButtonDiv>
         ) : null}
+                      
+
       </MainContainer>
     </ThemeProvider>
   );

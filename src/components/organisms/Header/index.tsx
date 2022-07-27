@@ -45,6 +45,10 @@ const useStyles = makeStyles({
     position: "absolute",
     left: 479,
     top: 33,
+    cursor: "pointer",
+    "&:hover": {
+      borderBottom: "1px solid #22C870",
+    }
   },
   myLibrary: {
     alignSelf: "center",
@@ -53,7 +57,11 @@ const useStyles = makeStyles({
     position: "absolute",
     top: 33,
     fontSize: 16,
-    fontFamily: 'Cera Pro !important'
+    fontFamily: 'Cera Pro !important',
+    cursor:"pointer",
+    "&:hover": {
+      borderBottom: "1px solid #22C870",
+    }
   },
   avatar:{
     position: "absolute",
@@ -76,6 +84,10 @@ const useStyles = makeStyles({
     position: "absolute",
     left: 417,
     top: 33,
+    cursor:"pointer",
+    "&:hover": {
+      borderBottom: "1px solid #22C870",
+    }
   },
   
 });

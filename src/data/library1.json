@@ -7,6 +7,7 @@
       "image": "../images/gallery1.svg",
       "timeToRead": "13-min read",
       "numberOfReads": "",
+      "progress": 40,
       "status": {
         "isFinished": false,
         "isTrending": false,
@@ -21,9 +22,10 @@
       "image": "../images/employee.svg",
       "timeToRead": "15-min read",
       "numberOfReads": "1.9k reads",
+      "progress": 100,
       "status": {
-        "isFinished": false,
-        "isTrending": true,
+        "isFinished": true,
+        "isTrending": false,
         "isFeatured": false,
         "justAdded": false
       }
@@ -35,6 +37,7 @@
       "image": "../images/doesntHurtToAsk.svg",
       "timeToRead": "13-min read",
       "numberOfReads": "1.9k reads",
+      "progress": 40,
       "status": {
         "isFinished": false,
         "isTrending": true,
@@ -48,6 +51,7 @@
       "author": "Amanda Little",
       "timeToRead": "12-minute read",
       "numberOfReads": "16k reads",
+      "progress": 40,
       "image": "../images/theFateOfFood.svg",
       "status": {
         "isFinished": false,
@@ -62,10 +66,11 @@
       "author": "Ryan Holiday, Stephen Hansel",
       "timeToRead": "13-minute read",
       "numberOfReads": "",
+      "progress": 0,
       "image": "../images/livesOfStoics.svg",
       "status": {
         "isFinished": false,
-        "isTrending": true,
+        "isTrending": false,
         "justAdded": false,
         "isFeatured": false
       }
@@ -76,10 +81,11 @@
       "author": "Debbie King",
       "timeToRead": "13-minute read",
       "numberOfReads": "",
+      "progress": 0,
       "image": "../images/lovingYourBusiness.svg",
       "status": {
         "isFinished": false,
-        "isTrending": true,
+        "isTrending": false,
         "justAdded": false,
         "isFeatured": false
       }
@@ -89,6 +95,7 @@
       "title": "The Lonely Century",
       "author": "Noreena Hertz",
       "image": "../images/theLonelyCentury.svg",
+      "progress": 40,
       "timeToRead": "15-min read",
       "numberOfReads": "",
       "status": {
@@ -105,6 +112,7 @@
       "timeToRead": "13-minute read",
       "numberOfReads": "1.9k reads",
       "image": "../images/eatBetterFeelBetter.svg",
+      "progress": 40,
       "status": {
         "isFinished": false,
         "isTrending": false,
@@ -118,6 +126,7 @@
       "author": "James Moore",
       "timeToRead": "12-minute read",
       "numberOfReads": "",
+      "progress": 40,
       "image": "../images/dropshipping.svg",
       "status": {
         "isFinished": false,
@@ -132,7 +141,8 @@
       "author": "Jim Collins & Bill Lazier",
       "timeToRead": "13-minute read",
       "numberOfReads": "1.9k reads",
-      "image": "../images/entreprenuer.svg",
+      "progress": 40,
+      "image": "../images/beyondEntrepreneurship.svg",
       "status": {
         "isFinished": false,
         "isTrending": true,
@@ -146,6 +156,7 @@
       "author": "Kathleen Shannon land Emily...",
       "timeToRead": "13-minute read",
       "numberOfReads": "",
+      "progress": 40,
       "image": "../images/beingBoss.svg",
       "status": {
         "isFinished": false,

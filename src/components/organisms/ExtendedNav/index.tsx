@@ -15,7 +15,7 @@ const MainContainer = styled("div")({
 let useStyles = makeStyles({
     mainDiv: {
         boxSizing: 'border-box',
-        minWidth: "100%",
+        minWidth: 1850,
         height: 398,
         zIndex: 8,
         position: 'absolute',
@@ -49,7 +49,11 @@ let useStyles = makeStyles({
     navItem: {
         display: 'flex',
         flexDirection: 'row',
-        width: 182
+        width: 182,
+        cursor: "pointer",
+    "&:hover": {
+      color: "#116BE9",
+    }
     },
     highlight: {
         fontWeight: '700 !important',

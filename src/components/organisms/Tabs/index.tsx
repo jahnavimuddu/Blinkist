@@ -63,6 +63,7 @@ export const Tabs = () => {
       author: "",
       timeToRead: "",
       numberOfReads: "",
+      progress: 0,
       image: "",
       status: {
         isFinished: false,

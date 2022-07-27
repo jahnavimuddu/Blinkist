@@ -9,6 +9,7 @@ interface BookDisplayProps {
   author: string;
   timeToRead: string;
   numberOfReads: string;
+  progress:number;
   image: string;
   status: {
     isTrending: boolean;
@@ -25,6 +26,7 @@ export type BookInfo = {
   image: string,
   timeToRead: string,
   numberOfReads: string,
+  progress: number,
   status: {
     isFinished: boolean,
     isTrending: boolean,
@@ -104,6 +106,7 @@ const Categories = (props: CardProps) => {
               author={book.author}
               timeToRead={book.timeToRead}
               numberOfReads={book.numberOfReads}
+              progress={book.progress}
               image={book.image}
               isFinished={book.status.isFinished}
               addToLibrary={true}

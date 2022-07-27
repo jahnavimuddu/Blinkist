@@ -17,6 +17,7 @@ export const Library = [
     author: "Erica Keswin",
     timeToRead: "13-minute read",
     numberOfReads: "",
+    progress: 40,
     image: Book1,
     status: {
       isFinished: false,
@@ -31,6 +32,7 @@ export const Library = [
     author: "Steve Glaveski",
     timeToRead: "15-minute read",
     numberOfReads: "1.9k reads",
+    progress: 40,
     image: Book2,
     status: {
       isFinished: false,
@@ -45,6 +47,7 @@ export const Library = [
     author: "Trey Gowdy",
     timeToRead: "13-minute read",
     numberOfReads: "1.9k reads",
+    progress: 40,
     image: Book3,
     status: {
       isFinished: false,
@@ -59,6 +62,7 @@ export const Library = [
     author: "Amanda Little",
     timeToRead: "12-minute read",
     numberOfReads: "16k reads",
+    progress: 40,
     image: Book4,
     status: {
       isFinished: false,
@@ -73,6 +77,7 @@ export const Library = [
     author: "Ryan Holiday, Stephen Hansel",
     timeToRead: "13-minute read",
     numberOfReads: "",
+    progress: 100,
     image: Book5,
     status: {
       isFinished: false,
@@ -87,6 +92,7 @@ export const Library = [
     author: "Debbie King",
     timeToRead: "13-minute read",
     numberOfReads: "",
+    progress: 40,
     image: Book6,
     status: {
       isFinished: false,
@@ -101,6 +107,7 @@ export const Library = [
     author: "Noreena Hertz",
     timeToRead: "15-minute read",
     numberOfReads: "",
+    progress: 40,
     image: Book7,
     status: {
       isFinished: false,
@@ -115,6 +122,7 @@ export const Library = [
     author: "Giada De Laurentiis",
     timeToRead: "13-minute read",
     numberOfReads: "1.9k reads",
+    progress: 40,
     image: Book8,
     status: {
       isFinished: false,
@@ -129,6 +137,7 @@ export const Library = [
     author: "James Moore",
     timeToRead: "12-minute read",
     numberOfReads: "",
+    progress: 40,
     image: Book9,
     status: {
       isFinished: false,
@@ -143,6 +152,7 @@ export const Library = [
     author: "Jim Collins & Bill Lazier",
     timeToRead: "13-minute read",
     numberOfReads: "1.9k reads",
+    progress: 40,
     image: Book10,
     status: {
       isFinished: false,
@@ -157,6 +167,7 @@ export const Library = [
     author: "Kathleen Shannon land Emily...",
     timeToRead: "13-minute read",
     numberOfReads: "",
+    progress: 40,
     image: Book11,
     status: {
       isFinished: false,

@@ -13,7 +13,7 @@ let BodyComponent = styled("div")({
 
 let FooterComponent = styled("div")({
     position: 'relative',
-    top: 177
+    top: 70
 })
 
 export const BookDetails = (props: BookDetailsProps) => {

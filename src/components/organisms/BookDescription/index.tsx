@@ -74,6 +74,7 @@ export const BookDescription = () => {
     image: "",
     timeToRead: "",
     numberOfReads: "",
+    progress:0,
     status: {
       isFinished: false,
       isTrending: false,
@@ -101,6 +102,7 @@ export const BookDescription = () => {
 
   let updateFinish = async (num: number) => {
     bookInfo.status.isFinished = true
+    bookInfo.progress = 100
     console.log(JSON.stringify(bookInfo))
 
     await api.put(`/library/${num}`, bookInfo)
@@ -113,6 +115,7 @@ export const BookDescription = () => {
     bookInfo.status.isTrending=false
     bookInfo.status.justAdded=false
     bookInfo.status.isFeatured=false
+    bookInfo.progress=0
 
     await api.put(`/library/${num}`, bookInfo)
 
@@ -123,6 +126,7 @@ export const BookDescription = () => {
     bookInfo.status.isTrending=true
     bookInfo.status.justAdded=false
     bookInfo.status.isFeatured=false
+    bookInfo.progress=0
 
     await api.put(`/library/${num}`, bookInfo)
 
