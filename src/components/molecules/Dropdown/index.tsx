@@ -23,10 +23,6 @@ const useStyles = makeStyles({
     height: 6.48,
     alignSelf: 'center',
     marginLeft: 6.7,
-    cursor: "pointer",
-    "&:hover": {
-      borderBottom: "1px solid #22C870",
-    }
   }
 })
 
