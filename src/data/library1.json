@@ -81,10 +81,10 @@
       "author": "Debbie King",
       "timeToRead": "13-minute read",
       "numberOfReads": "",
-      "progress": 0,
+      "progress": 100,
       "image": "../images/lovingYourBusiness.svg",
       "status": {
-        "isFinished": false,
+        "isFinished": true,
         "isTrending": false,
         "justAdded": false,
         "isFeatured": false
@@ -145,7 +145,7 @@
       "image": "../images/beyondEntrepreneurship.svg",
       "status": {
         "isFinished": false,
-        "isTrending": true,
+        "isTrending": false,
         "justAdded": false,
         "isFeatured": false
       }

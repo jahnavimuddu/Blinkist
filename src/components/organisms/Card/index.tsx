@@ -141,7 +141,7 @@ export type BookInfo = {
 }
 
 export const Card = (props: CardProps) => {
-  let {value, onClick, image, title, author, timeToRead, numberOfReads, readAgain, addToLibrary, isFinished, progress } = props
+  let {value, onClick, image, title, author, timeToRead, numberOfReads, readAgain, addToLibrary, isFinished} = props
   let styles = useStyles();
 
   let [iconStyle, setIconStyle] = useState({})
