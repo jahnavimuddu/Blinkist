@@ -1,6 +1,5 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import ProgressBar from ".";
-// import baseTheme from "../../../theme/ButtonTheme/buttonTheme";
 const ProgressBarComponent = {
   title: "atoms/ProgressBar",
   component: ProgressBar,

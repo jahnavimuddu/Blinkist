@@ -17,6 +17,7 @@ CardComponent.args = {
     author: 'Kathleen Shannon and Emily...',
     timeToRead: '13-minute read',
     numberOfReads: '1.9k reads',
+    progress: 60,
     // isFinished: true,
     // readAgain: true,
     addToLibrary: true

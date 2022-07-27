@@ -15,7 +15,7 @@ export const TabsComponent = () => {
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     console.log(event)
     setValue(newValue);
-    setColor(color);
+    // setColor(color);
   };
 
   let classes = useStyles();
