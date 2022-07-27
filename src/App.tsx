@@ -3,7 +3,7 @@ import EntrepreneurshipPage from './pages/Entrepreneurship'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BookDetailsPage from "./pages/BookDetails";
 import { makeStyles } from "@mui/styles";
-import LoginButton from './components/auth0/Login';
+import LoginButton from './components/auth0/LoginButton';
 import {useAuth0} from '@auth0/auth0-react';
 import React from 'react'
 

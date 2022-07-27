@@ -8,7 +8,7 @@ import { Dropdown } from "../../molecules/Dropdown";
 import { ExtendedNav } from "../ExtendedNav";
 import theme from '../../themes/theme'
 import {useNavigate} from 'react-router-dom'
-import LogoutButton from "../../auth0/Logout";
+import LogoutButton from "../../auth0/LogoutButton";
 import { useAuth0 } from "@auth0/auth0-react";
 
 
